@@ -1,0 +1,52 @@
+{
+  "name": "@black-raven/vercel-poetry",
+  "version": "0.0.1",
+  "release": {
+    "branches": [
+      "main"
+    ],
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/npm",
+      "@semantic-release/github",
+      "@semantic-release/git"
+    ]
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist/**",
+    "vc_init.py"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TryBlackRaven/vercel-poetry.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "poetry",
+    "python",
+    "vercel"
+  ],
+  "scripts": {
+    "build": "NODE_OPTIONS=--openssl-legacy-provider node build",
+    "build:publish": "npm run build && npm publish --access public",
+    "lint": "eslint . --ext .ts"
+  },
+  "dependencies": {
+    "execa": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/execa": "^0.9.0",
+    "@types/glob": "^8.1.0",
+    "@types/jest": "29.5.12",
+    "@types/node": "20.12.10",
+    "@vercel/build-utils": "8.0.0",
+    "@vercel/ncc": "0.38.1",
+    "fs-extra": "^11.1.1",
+    "typescript": "^5.0.4",
+    "@typescript-eslint/eslint-plugin": "^7.8.0",
+    "@typescript-eslint/parser": "^7.8.0",
+    "eslint": "^8.56.0"
+  }
+}
