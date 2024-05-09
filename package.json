@@ -1,6 +1,6 @@
 {
   "name": "@black-raven/vercel-poetry",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "release": {
     "branches": [
       "main"
