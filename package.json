@@ -39,7 +39,7 @@
   "devDependencies": {
     "@types/execa": "^0.9.0",
     "@types/glob": "^8.1.0",
-    "@types/jest": "29.5.12",
+    "@types/jest": "29.5.13",
     "@types/node": "22.5.5",
     "@vercel/build-utils": "8.4.0",
     "@vercel/ncc": "0.38.1",
