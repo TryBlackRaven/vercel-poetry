@@ -41,7 +41,7 @@
     "@types/glob": "^8.1.0",
     "@types/jest": "29.5.13",
     "@types/node": "22.6.1",
-    "@vercel/build-utils": "8.4.4",
+    "@vercel/build-utils": "8.4.5",
     "@vercel/ncc": "0.38.2",
     "fs-extra": "^11.1.1",
     "typescript": "^5.6.2",
