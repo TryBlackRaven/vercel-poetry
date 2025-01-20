@@ -43,7 +43,7 @@
     "@types/node": "22.10.6",
     "@vercel/build-utils": "9.0.1",
     "@vercel/ncc": "0.38.3",
-    "fs-extra": "^11.1.1",
+    "fs-extra": "^11.3.0",
     "typescript": "^5.7.3",
     "@typescript-eslint/eslint-plugin": "^7.17.0",
     "@typescript-eslint/parser": "^7.18.0",
