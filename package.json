@@ -40,7 +40,7 @@
     "@types/execa": "^0.9.0",
     "@types/glob": "^8.1.0",
     "@types/jest": "29.5.14",
-    "@types/node": "22.13.13",
+    "@types/node": "22.13.14",
     "@vercel/build-utils": "10.5.1",
     "@vercel/ncc": "0.38.3",
     "fs-extra": "^11.3.0",
